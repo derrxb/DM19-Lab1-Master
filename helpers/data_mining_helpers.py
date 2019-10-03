@@ -24,7 +24,7 @@ def check_missing_values(row):
     for element in row:
         if element == True:
             counter+=1
-    return ("The amoung of missing records is: ", counter)
+    return (f"The amoung of missing records is: {counter}")
 
 def tokenize_text(text, remove_stopwords=False):
     """
